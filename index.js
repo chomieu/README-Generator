@@ -5,49 +5,50 @@ inquirer.prompt([
     {
         type: "input",
         name: "title",
-        message: "What is the title of the project?"
+        message: "Project Title:"
     },
     {
         type: "input",
         name: "description",
-        message: "What is the description of the project?"
-    },
-    {
-        type: "input",
-        name: "table of contents",
-        message: "What is the title of the project?"
+        message: "Description"
     },
     {
         type: "input",
         name: "installation",
-        message: "What is the description of the project?"
+        message: "Installation Instructions:"
     },
     {
         type: "input",
-        name: "title",
-        message: "What is the title of the project?"
+        name: "usage",
+        message: "Usage Information:"
     },
     {
         type: "input",
-        name: "description",
-        message: "What is the description of the project?"
+        name: "contributing",
+        message: "Contribution Guidelines"
     },
     {
         type: "input",
-        name: "table of contents",
-        message: "What is the title of the project?"
+        name: "tests",
+        message: "Test Instructions:"
+    },
+    {
+        type: "list",
+        name: "license",
+        message: "Choose a License:",
+        choices: ["MIT", "GNU GPLv3", "Apache", "Boost", "Eclipse", "Mozilla", "Unlicense"]
     },
     {
         type: "input",
-        name: "installation",
-        message: "What is the description of the project?"
+        name: "questions",
+        message: "Enter your GitHub username:"
     },
     {
         type: "input",
-        name: "installation",
-        message: "What is the description of the project?"
+        name: "email",
+        message: "Enter your email address:"
     }
-]).then(answer => {
+]).then((answer) => {
     fs.writeFile("README.md", JSON.stringify(answer), (err) =>
         err ? console.error(err) : console.log("success"))
 })
