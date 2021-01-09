@@ -11,7 +11,7 @@ Quickly generate a professional README file for your project using Node.js
 * [Questions](#questions)
         
 ## Installation
-1. Make sure you have [Node.js](https://nodejs.org/en/) installed
+1. Make sure you have Node.js installed ([download](https://nodejs.org/en/))
 2. Clone this repo into your directory
 ```
 git clone git@github.com:chomieu/README-Generator.git
