@@ -54,7 +54,7 @@ function generateMarkdown(data) {
   \n## Contributing\n${data.contributing}
   \n## Tests\n${data.tests}`
   + renderLicenseSection(data.license) +
-  `\n\n## Questions\nFor questions, contact github.com/${data.username} or email ${data.email}`
+  `\n\n## Questions\nFor questions, contact [${data.username}](https://github.com/${data.username}) or email ${data.email}`
 }
 
 // Exports generateMarkdown function
