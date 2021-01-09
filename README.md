@@ -16,7 +16,7 @@ Create a good README in minutes!
 git clone from this repo 
         
 ## Usage
-node index.js and answer each prompt question
+![Walkthrough Video](https://i.imgur.com/c8j3p0t.mp4)
         
 ## Contributing
 N/A
