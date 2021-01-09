@@ -70,12 +70,12 @@ inquirer.prompt([
     const template =
         `# ${response.title}\n${getBadge(response.license)}
         \n## Description\n${response.description}
-        \n## Table of Contents\n* [Installation](#installation)\n* [Usage](#usage)\n* [Contributing](#contributing)\n* [Tests](#tests)\n* [License](#license)\n* [Contact](#contact)
+        \n## Table of Contents\n* [Installation](#installation)\n* [Usage](#usage)\n* [Contributing](#contributing)\n* [Tests](#tests)\n* [License](#license)\n* [Questions](#questions)
         \n## Installation\n${response.installation} 
         \n## Usage\n${response.usage}
         \n## Contributing\n${response.contributing}
         \n## Tests\n${response.tests}
-        \n## Liscense\n[${response.license}](https://choosealicense.com/licenses/${response.license.toLowerCase()}/)
+        \n## License\n[${response.license}](https://choosealicense.com/licenses/${response.license.toLowerCase()}/)
         \n## Questions\nFor questions, contact github.com/${response.username} or email ${response.email}`
 
     // Creates the README file and log the error or success massage to the console 
