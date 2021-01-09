@@ -19,7 +19,7 @@ git clone git@github.com:chomieu/README-Generator.git
 
 ## Usage
 [Walkthrough Video](https://drive.google.com/file/d/1cr6vxcIDR7EPusXFjN1sXw3Cbk5iBkNp/view)</br>
-![Walkthrough GIF](./README-Generator_walkthrough.gif)
+![Walkthrough GIF](./README_walkthrough.gif)
         
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
