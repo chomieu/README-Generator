@@ -2,8 +2,8 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
         
 ## Description
-Create a good README in minutes!
-        
+Quickly generate a professional README file for your project using Node.js
+   
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -18,10 +18,8 @@ git clone git@github.com:chomieu/README-Generator.git
 ```
 
 ## Usage
-![App execution video](https://i.imgur.com/c8j3p0t.mp4)
-        
-## Contributing
-N/A
+[Walkthrough Video](https://drive.google.com/file/d/1cr6vxcIDR7EPusXFjN1sXw3Cbk5iBkNp/view)
+![Walkthrough GIF](./README-Generator_walkthrough.gif)
         
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
