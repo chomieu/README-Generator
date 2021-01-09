@@ -1,5 +1,5 @@
 # README Generator
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
         
 ## Description
 Quickly generate a professional README file for your project using Node.js
