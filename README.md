@@ -8,24 +8,23 @@ Create a good README in minutes!
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
-* [Tests](#tests)
 * [License](#license)
 * [Questions](#questions)
         
 ## Installation
-git clone from this repo 
-        
+Clone this repo into your directory.
+```
+git clone git@github.com:chomieu/README-Generator.git
+```
+
 ## Usage
-![Walkthrough Video](https://i.imgur.com/c8j3p0t.mp4)
+![App execution video](https://i.imgur.com/c8j3p0t.mp4)
         
 ## Contributing
 N/A
         
-## Tests
-N/A
-        
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-        
+
 ## Questions
 For questions, contact github.com/chomieu or email chomieu@gmail.com
