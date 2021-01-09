@@ -7,7 +7,6 @@ Quickly generate a professional README file for your project using Node.js
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
 * [License](#license)
 * [Questions](#questions)
         
