@@ -1,6 +1,8 @@
+// Calls the inquirer and fs packages
 const inquirer = require("inquirer")
 const fs = require("fs")
 
+// Prompts for user input then processes the response
 inquirer.prompt([
     {
         type: "input",
@@ -50,6 +52,7 @@ inquirer.prompt([
     }
 ]).then(response => {
 
+    // Returns matching badge
     function getBadge(license) {
         switch (license) {
             case "MIT":
@@ -63,6 +66,7 @@ inquirer.prompt([
         }
     }
 
+    // Template gets filled based on the user's response to each question
     const template =
         `# ${response.title}\n${getBadge(response.license)}
         \n## Description\n${response.description}
@@ -74,6 +78,7 @@ inquirer.prompt([
         \n## Liscense\n[${response.license}](https://choosealicense.com/licenses/${response.license.toLowerCase()}/)
         \n## Questions\nFor questions, contact github.com/${response.username} or email ${response.email}`
 
+    // Creates the README file and log the error or success massage to the console 
     fs.writeFile("README.md", template, (err) =>
         err ? console.error(err) : console.log("success"))
 })
