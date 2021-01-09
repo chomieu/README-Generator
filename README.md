@@ -25,4 +25,4 @@ git clone git@github.com:chomieu/README-Generator.git
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Questions
-For questions, contact github.com/chomieu or email chomieu@gmail.com
+For questions, contact [chomieu](https://github.com/chomieu) or email chomieu@gmail.com
