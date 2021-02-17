@@ -22,7 +22,7 @@ git clone git@github.com:chomieu/README-Generator.git
 ![Walkthrough GIF](./README_walkthrough.gif)
         
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](./LICENSE) License
 
 ## Questions
 For questions, contact [chomieu](https://github.com/chomieu) or email chomieu@gmail.com
